@@ -1,10 +1,10 @@
 package com.HackerRankJava;
 
-public class animal_12HackerRank {
+public class Animal {
 
     public int age;
 
-    public animal_12HackerRank(int age){
+    public Animal(int age){
         this.age=age;
         System.out.println("This is an Animal");
 
@@ -17,7 +17,7 @@ public class animal_12HackerRank {
     }
 
     public static void main(String[] args) {
-        animal_12HackerRank a1 = new animal_12HackerRank(5);
+        Animal a1 = new Animal(5);
         Dog d1 = new Dog();
         Cat c1 = new Cat();
         d1.ruff();
@@ -29,7 +29,7 @@ public class animal_12HackerRank {
         d1.run();
         c1.prance();
 
-        animal_12HackerRank a2 = new Dog();
+        Animal a2 = new Dog();
         a2.eats();
 
     }
