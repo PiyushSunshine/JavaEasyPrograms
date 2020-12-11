@@ -1,4 +1,4 @@
-package com.HackerRankJava;
+package com.inheritanceJava;
 
 public class Dog extends Animal {
 
